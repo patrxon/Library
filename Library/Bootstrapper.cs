@@ -24,7 +24,8 @@ namespace Library
 
             _container
                 .Singleton<IWindowManager, WindowManager>()
-                .Singleton<IEventAggregator, EventAggregator>();
+                .Singleton<IEventAggregator, EventAggregator>()
+                .Singleton<ViewNavigator, ViewNavigator>();
 
             GetType().Assembly.GetTypes()
                 .Where(type => type.IsClass)

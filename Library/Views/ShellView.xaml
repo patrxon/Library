@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library.Views"
         mc:Ignorable="d"
-        Title="Library" MinHeight="400" MinWidth="600"
-        Height="400" Width="600">
+        Title="Library" MinHeight="480" MinWidth="640"
+        Height="480" Width="640">
     <DockPanel>
         <Grid>
             <ContentControl x:Name="ActiveItem" Margin="5"/>

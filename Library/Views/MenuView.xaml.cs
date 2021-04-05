@@ -15,7 +15,7 @@ namespace Library.Views
     /// <summary>
     /// Interaction logic for MenuView.xaml
     /// </summary>
-    public partial class MenuView : Window
+    public partial class MenuView : UserControl
     {
         public MenuView()
         {
